@@ -75,12 +75,10 @@ def test_negative_lucas():
 
 
 # expected failure
-
 def test_15n_lucas():
     expected = "Input should be a one integer"
     actual = lucas("a")
     assert actual == expected
-
 
 
 # SUM_SERIES TESTS
