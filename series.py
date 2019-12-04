@@ -19,3 +19,10 @@ def lucas(n):
         return ("Input should be a one integer")
 
 
+def sum_series(n, previous = 0, current = 1):
+    try:
+        for i in range(n):
+            previous, current = current, previous + current
+        return previous
+    except TypeError:
+        return ("Input allows only integers")
