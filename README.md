@@ -4,17 +4,19 @@
 **Version**: 1.0.3
 
 ## Overview
-Three functions that return element value from the (n) index position from the sequence.
-fibonacci(n) - from Fibonacci sequence
-lucas(n) - from Lucas sequence
-sum_series(n, fist_i, second_i)  - return number from the custom sequence that created based on the Fibonacci sequence logic
-
+Three functions that return element value from the (n) index position from the fibonacci-like sequence.
 
 ## Architecture
 
 * Python 3.7.5
 * Pipenv
 * Pytest
+
+## API
+fibonacci(n) - from Fibonacci sequence
+lucas(n) - from Lucas sequence
+sum_series(n, fist_i, second_i)  - return number from the custom sequence that created based on the Fibonacci sequence logic
+
 
 ## Change Log
 
