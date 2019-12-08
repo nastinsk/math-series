@@ -13,9 +13,9 @@ Three functions that return element value from the (n) index position from the f
 * Pytest
 
 ## API
-fibonacci(n) - from Fibonacci sequence
-lucas(n) - from Lucas sequence
-sum_series(n, fist_i, second_i)  - return number from the custom sequence that created based on the Fibonacci sequence logic
+* fibonacci(n) - Function that returns value of the given index from Fibonacci sequence
+* lucas(n) - Function that returns value of the given index from Lucas sequence
+* sum_series(n, fist_i, second_i)  - Function that returns value of the given index from Custom fibonacci-like sequence
 
 
 ## Change Log
